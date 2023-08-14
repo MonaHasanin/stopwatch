@@ -9,12 +9,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #8ccee7;
+    background-image: url("https://images.unsplash.com/photo-1531397804924-41febe83d60f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
 }
 
 header {
-    background-image: url("https://images.unsplash.com/photo-1592356986971-68c56631013f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
-    opacity: 85%;
+    background-color: black;
     stroke-opacity: 10%;
 
 }
@@ -29,9 +28,7 @@ transform: rotate(0deg);
  text-shadow: 0px 0px 7px #eff5f5,1px 0px 15px #f7f3f3;
 
 }
-header {
-    background-color: aliceblue;
-}
+
 header:hover {
     background-color: black;
     cursor: pointer;
@@ -43,15 +40,13 @@ footer {
     font-style: oblique;
 transform: rotate(0deg);
 text-shadow: 0px 0px 3px #eff5f5,1px 0px 5px #f7f3f3;
-    background-image: url("https://images.unsplash.com/photo-1592356986971-68c56631013f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-color: black;
 
 }
 footer:hover {
-    background-color: black;
     cursor: pointer;
     text-transform: uppercase;
-    transform: scale(1.5);
-    font-weight: bold;
+     font-weight: bold;
     
 }
 
@@ -66,10 +61,11 @@ transform: rotate(0deg);
  text-shadow: 0px 0px 7px #0a0a0a,1px 0px 15px #0a0a0a;
 
 }
+ 
  .container {
-    border: #f0f8ff solid 1vw;
-    background-image: url("https://images.unsplash.com/photo-1531397804924-41febe83d60f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
-    border-radius: 25vw;
+    border: #363535 solid .1vw;
+    background-color: #0a0a0a;
+    border-radius: 2vw;
     padding: 1vw;
     margin: 1vw;
     opacity: 90%;
@@ -107,8 +103,7 @@ button:hover {
     background-color: black;
     cursor: pointer;
     text-transform: uppercase;
-    transform: scale(1.5);
-    font-weight: bold;
+     font-weight: bold;
 }
 
 .digit {
